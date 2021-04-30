@@ -15,7 +15,7 @@ flow:
     - sleep:
         do:
           io.cloudslang.base.utils.sleep:
-            - seconds: '3'
+            - seconds: '2'
         navigate:
           - SUCCESS:
               next_step: SUCCESS
